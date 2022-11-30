@@ -182,6 +182,7 @@ class Name():
         'DARKBROWN':
         ['Brown', 'Shade', 'Dark', 'Night', 'Russet', 'Rowan', 'Mud']}
 
+    # NAMES DEPENDING ON EYE-COLOR
     eye_prefixes = {
         'YELLOW': ['Yellow', 'Moon', 'Daisy', 'Honey', 'Light'],
         'AMBER': ['Amber', 'Sun', 'Fire', 'Gold', 'Honey', 'Scorch'],
@@ -193,7 +194,59 @@ class Name():
         'BLUEYELLOW': ['Yellow', 'Blue', 'Odd', 'One', 'Moon'],
         'BLUEGREEN': ['Green', 'Blue', 'Odd', 'One', 'Clover']
     }
-
+    
+    # BIOME SPECIFIC NAMES
+    biome_prefixes = {
+        'forest': ['Acorn', 'Magnolia', 'Doe', 'Maple', 'Chip', 'Glade', 'Grove', 'Tar', 'Deer', 'Doe', 'Buck', 'Stag',
+                   'Wooded', 'Wood', 'Log', 'Stump', 'Birch', 'Oak', 'Beech', 'Amber', 'Sap', 'Wolf', 'Grouse', 'Moose', 'Elk',
+                   'Daw', 'Spruce', 'Pine', 'Aspen', 'Mushroom', 'Lynx', 'Squirrel', 'Badger', 'Boar', 'Marten', 'Bat', 'Robin', 'Sparrow',
+                   'Stick', 'Twig', 'Bark', 'Leaf', 'Sprig', 'Bramble', 'Hazel', 'Honey', 'Frond', 'Cedar', 'Fir'],
+        
+        'beach': ['Jellyfish', 'Trout', 'Salt', 'Shore', 'Coast', 'Wave', 'Flounder', 'Sardine', 'Anchovy', 'Squid', 'Conch', 'Cockle', 'Anemone',
+                  'Crab', 'Hermit', 'Coral', 'Current', 'Splash', 'Pearl', 'Scale', 'Shark', 'Algae', 'Ocean', 'Sea', 'Reef', 'Cove',
+                  'Foam', 'Clam', 'Snail', 'Slug', 'Brine', 'Barracuda', 'Pebble', 'Octopus', 'Ripple', 'Swash', 'Drop', 'Drip',
+                  'Lagoon', 'Shimmer', 'Fin'],
+        
+        'plains': ['Meadow', 'Flutter', 'Grass', 'Dandelion', 'Field', 'Pollen', 'Wool', 'Wooly', 'Sheep', 'Lamb', 'Grouse', 'Gopher', 'Horse',
+                   'Corn', 'Oat', 'Elk', 'Cow', 'Bull', 'Bovine', 'Stampede', 'Heather', 'Barley', 'Wheat', 'Sage',
+                   'Mule', 'Sedge', 'Prairie', 'Calf', 'Breeze', 'Swish' ],
+        
+        'mountains': ['Glacial', 'Pinnacle', 'Goat', 'Alpaca', 'Alpine', 'Rocky', 'Ram', 'High', 'Volcano', 'Yucca', 'Lichen', 'Crag',
+                      'Eagle', 'Tundra', 'Cliff', 'Avalanche', 'Granite', 'Gravel', 'Salt', 'Steppe', 'Flint', 'Mountain', 'Summit',
+                      'Marten', 'Cavern', 'Cave', 'Chamois', 'Peak', 'Spire', 'Shard', 'Whistle', 'Stone',
+                      'Limestone', 'Pebble', 'Boulder'],
+        
+        'wetlands': ['Willow', 'Marsh', 'Bog', 'Lotus', 'Reed', 'Frog', 'Toad', 'Stork', 'Crane', 'Duck', 'Heron',
+                     'Ibis', 'Mangrove', 'Swamp', 'Murky', 'Algae', 'Mud', 'Splash', 'Croak', 'Mosquito',
+                     'Mallard', 'Goose', 'Peat', 'Skink', 'Tamarack', 'Spruce', 'Beaver', 'Wade', 'Craw',
+                     'Cypress', 'Magnolia', 'Skunk', 'Mosquito', 'Lily', 'Bayou', 'Clay', 'Grebe', 'Egret', 'Creek',
+                     'Skip', 'Bullrush', 'Beetle', 'Bug', 'Vine', 'Fog' ],
+        
+        'desert': ['Cactus', 'Dune', 'Coyote', 'Vulture', 'Condor', 'Canyon', 'Prickle', 'Pear', 'Agave',
+                   'Jackal', 'Dry', 'Drought', 'Rattle', 'Desert', 'Brittle', 'Mesa', 'Barren', 'Oasis', 'Dust', 'Arid', 'Buzzard',
+                   'Scrub', 'Gully', 'Yucca', 'Dingo', 'Mirage', 'Cobra', 'Caracal', 'Scorpion',
+                   'Barren', 'Skull', 'Jackrabbit', 'Hoodoo']
+    }
+    
+    biome_suffixes = {
+        'forest': ['clove', 'grove', 'tar', 'wood', 'deer', 'fog', 'antler', 'twig', 'branch', 'frond', 'cone'],
+        
+        'beach': ['current', 'tide', 'wave', 'flood', 'shore', 'coast', 'fin', 'splash', 'surf', 'squid',
+                  'coral', 'pearl', 'spray', 'ripple', 'drip', 'drop', 'shimmer' ],
+        
+        'plains': ['field', 'meadow', 'wool', 'oat', 'lamb', 'elk', 'flutter', 'pollen', 'bull', 'bee', 'swish', 'breeze' ],
+        
+        'mountains': ['peak', 'point', 'horn', 'lichen', 'cliff', 'ram', 'shard', 'whisper', 'fall', 'drop', 'whistle', 'tite', 'mite',
+                     'stone', 'rock', 'pebble', 'boulder'],
+        
+        'wetlands': ['flood', 'swamp', 'splash', 'croak', 'duck', 'bog', 'mud', 'skipper', 'wade', 'lily', 'root', 'bug', 'vine', 'creek',
+                    'peat'],
+        
+        'desert': ['valley', 'prick', 'prickle', 'dune', 'sand', 'canyon', 'rattle', 'drought', 'wind', 'dust', 'sun',
+                   'scorpion', 'snake', 'needle']
+    }
+    
+    # LONERS AND KITTYPETS
     loner_names = [
         "Haku", "Pichi", "Poki", "Nagi", "Jubie", "Bonbon", "Beans", "Aurora",
         "Maleficent", "Luna", "Eclipse", "Sol", "Star", "George", "Nightmare",
