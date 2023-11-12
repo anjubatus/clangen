@@ -382,4 +382,4 @@ class Sprites():
             
 
 # CREATE INSTANCE 
-sprites = Sprites()
+sprites = Sprites(size=200)
