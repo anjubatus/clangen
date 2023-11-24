@@ -183,7 +183,7 @@ class SpriteInspectScreen(Screens):
         self.the_cat = Cat.fetch_cat(game.switches['cat'])
         
         self.cat_elements["platform"] = pygame_gui.elements.UIImage(
-                scale(pygame.Rect((240, 200), (1120, 980))),
+                scale(pygame.Rect((240, 250), (1120, 980))),
                 pygame.transform.scale(self.get_platform(), scale_dimentions((1120, 701))), 
                 manager=MANAGER)
         self.set_background_visablity()
@@ -325,8 +325,8 @@ class SpriteInspectScreen(Screens):
                                          no_not_working=self.override_not_working)
         
         self.cat_elements["cat_image"] = pygame_gui.elements.UIImage(
-            scale(pygame.Rect((450, 200),(700, 700))),
-            pygame.transform.scale(self.cat_image, scale_dimentions((700, 700)))
+            scale(pygame.Rect((400, 200),(800, 800))),
+            pygame.transform.scale(self.cat_image, scale_dimentions((800, 800)))
         )
       
     def determine_previous_and_next_cat(self):

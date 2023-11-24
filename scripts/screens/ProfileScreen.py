@@ -518,7 +518,7 @@ class ProfileScreen(Screens):
             self.profile_elements["background"].disable()
 
         # Create cat image object
-        self.profile_elements["cat_image"] = pygame_gui.elements.UIImage(scale(pygame.Rect((200, 400), (300, 300))),
+        self.profile_elements["cat_image"] = pygame_gui.elements.UIImage(scale(pygame.Rect((150, 350), (400, 400))),
 
                                                                          pygame.transform.scale(
                                                                              self.the_cat.sprite,
