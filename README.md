@@ -1,7 +1,7 @@
 # clangen
 # ANJU'S MOD
 
-##Clangen base game info:
+Clangen base game info:
 ### [Discord Server](https://discord.gg/rnFQqyPZ7K) || [Itch.io Page](https://sablesteel.itch.io/clan-gen-fan-edit)
 
 Fan-edit of the warrior cat clangen game
@@ -10,12 +10,11 @@ Original creator: just-some-cat.tumblr.com
 
 Fan-edit creator: SableSteel, and many others
 
-##Anju's High-res Mod info
 ### [Mod discord server] (https://discord.gg/awDCB7JveH)
 
-Creator: Anju (anjujsc)
+Mod creator: Anju (anjujsc)
 
-Sprite helpers: Dino (banana_dino_69), Tiny (tinywinny)
+Mod Sprite helpers: Dino (banana_dino_69), Tiny (tinywinny)
 
 ## Downloads
 Note: This mod is based on the dev build, so you run it the same way as you would the developmental version of the base game.
