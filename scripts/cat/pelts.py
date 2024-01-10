@@ -50,8 +50,8 @@ class Pelt():
     #                'OREO', 'SWOOP', 'MOTTLED', 'SIDEMASK', 'EYEDOT', 'BANDANA', 'PACMAN', 'STREAMSTRIKE', 'ORIOLE', 'CHIMERA', 'DAUB', 'EMBER', 'BLANKET',
     #                'ROBIN', 'BRINDLE', 'PAIGE', 'ROSETAIL', 'SAFI', 'SMUDGED', 'DAPPLENIGHT', 'STREAK', 'MASK', 'CHEST', 'ARMTAIL', 'SMOKE', 'GRUMPYFACE',
     #                'BRIE', 'BELOVED', 'BODY', 'SHILOH', 'FRECKLED', 'HEARTBEAT']
-    tortiepatterns = ['MINIMALONE', 'MINIMALTHREE', 'HALF',
-                    'SWOOP', 'CHIMERA',
+    tortiepatterns = ['TWO', 'MINIMALONE', 'MINIMALTHREE', 'HALF',
+                    'SWOOP', 'CHIMERA', 'BLANKET',
                     'ROSETAIL', 'MASK','ARMTAIL'
                     ]
     tortiebases = ['single', 'tabby', 'bengal', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
