@@ -527,7 +527,7 @@ class ProfileScreen(Screens):
 
                                                                          pygame.transform.scale(
                                                                              self.the_cat.sprite,
-                                                                             (300, 300)), manager=MANAGER)
+                                                                             (400, 400)), manager=MANAGER)
         self.profile_elements["cat_image"].disable()
 
         # if cat is a med or med app, show button for their den
