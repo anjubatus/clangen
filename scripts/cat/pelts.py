@@ -131,9 +131,9 @@ class Pelt():
                     'CHESTSPECK', 'BLACKSTAR', 'PETAL', 'HEARTTWO','PEBBLESHINE', 'BOOTS', 'COW', 'COWTWO', 'LOVEBUG',
                     'SHOOTINGSTAR', 'EYESPOT', 'PEBBLE', 'TAILTWO', 'BUDDY', 'KROPKA']
     vit = ['VITILIGO', 'VITILIGOTWO', 'MOON', 'PHANTOM', 'KARPATI', 'POWDER', 'BLEACHED', 'SMOKEY']"""
-    little_white = ['LITTLE', 'LIGHTTUXEDO', 'PAWS',
+    little_white = ['LITTLE', 'LIGHTTUXEDO', 'BUZZARDFANG', 'TIP', 'PAWS',
                     'SCOURGE', 'LUNA',
-                    'EXTRA', 'TIP', 'BUZZARDFANG']
+                    'EXTRA', 'REVERSEEYE']
     mid_white = ['TUXEDO', 'FANCY', 'UNDERS',
                  'BEARD']
     high_white = ['ANY', 'ANYTWO', 'BROKEN', 'FRECKLES', 'RINGTAIL', 'HALFFACE', 'PANTSTWO',
