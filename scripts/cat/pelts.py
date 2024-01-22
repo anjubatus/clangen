@@ -50,7 +50,7 @@ class Pelt():
     #                'OREO', 'SWOOP', 'MOTTLED', 'SIDEMASK', 'EYEDOT', 'BANDANA', 'PACMAN', 'STREAMSTRIKE', 'ORIOLE', 'CHIMERA', 'DAUB', 'EMBER', 'BLANKET',
     #                'ROBIN', 'BRINDLE', 'PAIGE', 'ROSETAIL', 'SAFI', 'SMUDGED', 'DAPPLENIGHT', 'STREAK', 'MASK', 'CHEST', 'ARMTAIL', 'SMOKE', 'GRUMPYFACE',
     #                'BRIE', 'BELOVED', 'BODY', 'SHILOH', 'FRECKLED', 'HEARTBEAT']
-    tortiepatterns = ['TWO', 'MINIMALONE', 'MINIMALTHREE', 'HALF',
+    tortiepatterns = ['TWO', 'DELILAH', 'MINIMALONE', 'MINIMALTHREE', 'HALF',
                     'SWOOP', 'CHIMERA', 'BLANKET',
                     'ROSETAIL', 'MASK','ARMTAIL'
                     ]
@@ -138,7 +138,7 @@ class Pelt():
                  'BEARD']
     high_white = ['ANY', 'ANYTWO', 'BROKEN', 'FRECKLES', 'RINGTAIL', 'HALFFACE', 'PANTSTWO',
                   'PRINCE',
-                  'MAO']
+                  'MAO', 'OWL']
     mostly_white = ['VAN', 'ONEEAR', 'LIGHTSONG', 'TAIL',
                     'BLACKSTAR']
     point_markings = ['COLOURPOINT', 'RAGDOLL', 'SEPIAPOINT', 'MINKPOINT', 'SEALPOINT']
