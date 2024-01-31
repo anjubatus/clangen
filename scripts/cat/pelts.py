@@ -51,7 +51,7 @@ class Pelt():
     #                'ROBIN', 'BRINDLE', 'PAIGE', 'ROSETAIL', 'SAFI', 'SMUDGED', 'DAPPLENIGHT', 'STREAK', 'MASK', 'CHEST', 'ARMTAIL', 'SMOKE', 'GRUMPYFACE',
     #                'BRIE', 'BELOVED', 'BODY', 'SHILOH', 'FRECKLED', 'HEARTBEAT']
     tortiepatterns = ['TWO', 'DELILAH', 'MINIMALONE', 'MINIMALTHREE', 'HALF',
-                    'SWOOP', 'CHIMERA', 'BLANKET',
+                    'SWOOP', 'ORIOLE', 'CHIMERA', 'BLANKET',
                     'ROSETAIL', 'MASK','ARMTAIL'
                     ]
     tortiebases = ['single', 'tabby', 'bengal', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
@@ -131,7 +131,7 @@ class Pelt():
                     'CHESTSPECK', 'BLACKSTAR', 'PETAL', 'HEARTTWO','PEBBLESHINE', 'BOOTS', 'COW', 'COWTWO', 'LOVEBUG',
                     'SHOOTINGSTAR', 'EYESPOT', 'PEBBLE', 'TAILTWO', 'BUDDY', 'KROPKA']
     vit = ['VITILIGO', 'VITILIGOTWO', 'MOON', 'PHANTOM', 'KARPATI', 'POWDER', 'BLEACHED', 'SMOKEY']"""
-    little_white = ['LITTLE', 'LIGHTTUXEDO', 'BUZZARDFANG', 'TIP', 'PAWS',
+    little_white = ['LITTLE', 'LIGHTTUXEDO', 'BUZZARDFANG', 'TIP', 'BLAZE', 'VEE', 'PAWS',
                     'SCOURGE', 'LUNA',
                     'EXTRA', 'REVERSEEYE']
     mid_white = ['TUXEDO', 'FANCY', 'UNDERS',
