@@ -135,12 +135,12 @@ class Pelt():
                     'SCOURGE', 'LUNA',
                     'EXTRA', 'REVERSEEYE']
     mid_white = ['TUXEDO', 'FANCY', 'UNDERS',
-                 'FADESPOTS', 'BEARD']
+                 'FADESPOTS', 'BEARD', 'TOPCOVER']
     high_white = ['ANY', 'ANYTWO', 'BROKEN', 'FRECKLES', 'RINGTAIL', 'HALFFACE', 'PANTSTWO',
                   'PRINCE',
                   'MASKMANTLE', 'MAO', 'OWL']
     mostly_white = ['VAN', 'ONEEAR', 'LIGHTSONG', 'TAIL',
-                    'BLACKSTAR']
+                    'CHESTSPECK', 'BLACKSTAR', 'HEARTWO']
     point_markings = ['COLOURPOINT', 'RAGDOLL', 'SEPIAPOINT', 'MINKPOINT', 'SEALPOINT']
     vit = ['VITILIGO']
     white_sprites = [
@@ -434,11 +434,17 @@ class Pelt():
 
         # Tortie chance
         tortie_chance_f = game.config["cat_generation"]["base_female_tortie"]  # There is a default chance for female tortie
-        tortie_chance_m = game.config["cat_generation"]["base_male_tortie"]
+        if game.settings["male_tortie_chance"]:
+            tortie_chance_m = game.config["cat_generation"]["base_female_tortie"]
+        else:
+            tortie_chance_m = game.config["cat_generation"]["base_male_tortie"]
         for p_ in par_pelts:
             if p_.name in Pelt.torties:
                 tortie_chance_f = int(tortie_chance_f / 2)
-                tortie_chance_m = tortie_chance_m - 1
+                if game.settings_data["male_tortie_chance"]:
+                    tortie_chance_m = int(tortie_chance_m / 2)
+                else:
+                    tortie_chance_m = tortie_chance_m - 1
                 break
 
         # Determine tortie:
@@ -557,7 +563,10 @@ class Pelt():
         # Tortie chance
         # There is a default chance for female tortie, slightly increased for completely random generation.
         tortie_chance_f = game.config["cat_generation"]["base_female_tortie"] - 1
-        tortie_chance_m = game.config["cat_generation"]["base_male_tortie"]
+        if game.settings["male_tortie_chance"]:
+            tortie_chance_m = game.config["cat_generation"]["base_female_tortie"] - 1
+        else:
+            tortie_chance_m = game.config["cat_generation"]["base_male_tortie"]
         if gender == "female":
             torbie = random.getrandbits(tortie_chance_f) == 1
         else:

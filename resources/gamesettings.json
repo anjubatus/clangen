@@ -65,7 +65,12 @@
             "Randomize relationship values when creating Clan",
             "Clan founder cats will start the game with established relationships.",
             true
-        ]
+        ],
+		"male_tortie_chance": [
+			"Make male cats have normal tortie chances",
+			"Cats will have equal chances to be generated with tortie patterns, regardless of sex.",
+			false
+		]
     },
     "..": "these are special. they do not have a display name or a tooltip",
     "__other": {
