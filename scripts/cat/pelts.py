@@ -140,7 +140,7 @@ class Pelt():
                   'PRINCE',
                   'MASKMANTLE', 'MAO', 'OWL']
     mostly_white = ['VAN', 'ONEEAR', 'LIGHTSONG', 'TAIL',
-                    'CHESTSPECK', 'BLACKSTAR', 'HEARTWO']
+                    'CHESTSPECK', 'BLACKSTAR', 'HEARTTWO']
     point_markings = ['COLOURPOINT', 'RAGDOLL', 'SEPIAPOINT', 'MINKPOINT', 'SEALPOINT']
     vit = ['VITILIGO']
     white_sprites = [
