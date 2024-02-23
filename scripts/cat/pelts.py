@@ -139,7 +139,7 @@ class Pelt():
     high_white = ['ANY', 'ANYTWO', 'BROKEN', 'FRECKLES', 'RINGTAIL', 'HALFFACE', 'PANTSTWO',
                   'PRINCE',
                   'MASKMANTLE', 'MAO', 'OWL']
-    mostly_white = ['VAN', 'ONEEAR', 'LIGHTSONG', 'TAIL',
+    mostly_white = ['VAN', 'ONEEAR', 'LIGHTSONG', 'TAIL', 'MOORISH',
                     'CHESTSPECK', 'BLACKSTAR', 'HEARTTWO']
     point_markings = ['COLOURPOINT', 'RAGDOLL', 'SEPIAPOINT', 'MINKPOINT', 'SEALPOINT']
     vit = ['VITILIGO']
@@ -441,7 +441,7 @@ class Pelt():
         for p_ in par_pelts:
             if p_.name in Pelt.torties:
                 tortie_chance_f = int(tortie_chance_f / 2)
-                if game.settings_data["male_tortie_chance"]:
+                if game.settings["male_tortie_chance"]:
                     tortie_chance_m = int(tortie_chance_m / 2)
                 else:
                     tortie_chance_m = tortie_chance_m - 1
