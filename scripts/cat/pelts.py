@@ -138,7 +138,7 @@ class Pelt():
                  'FADESPOTS', 'BEARD', 'DAPPLEPAW', 'TOPCOVER']
     high_white = ['ANY', 'ANYTWO', 'BROKEN', 'FRECKLES', 'RINGTAIL', 'HALFFACE', 'PANTSTWO',
                   'PRINCE',
-                  'MASKMANTLE', 'MAO', 'OWL']
+                  'GLASS', 'MASKMANTLE', 'MAO', 'OWL']
     mostly_white = ['VAN', 'ONEEAR', 'LIGHTSONG', 'TAIL', 'MOORISH',
                     'CHESTSPECK', 'BLACKSTAR', 'HEARTTWO',
                     'TAILTWO']
