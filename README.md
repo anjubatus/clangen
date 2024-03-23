@@ -12,9 +12,11 @@ Fan-edit creator: SableSteel, and many others
 
 ### [Mod discord server] (https://discord.gg/awDCB7JveH)
 
-Mod creator: Anju (anjujsc)
+Mod Creator: Anju (anjujsc)
 
-Mod Sprite helpers: Dino (banana_dino_69), Tiny (tinywinny)
+Mod Sprite Helpers: Dino (banana_dino_69), Tiny (tinywinny), Izzy (izzyphobic), Acorn (a.corn)
+
+Mod Visual Sprite Guide by Ster (shiningstar1122): https://docs.google.com/spreadsheets/d/1JFkx-ieWI9-uv7dHVNno87oTYWT7Nh-ZH1dBr-BUOFs/edit#gid=1629238848
 
 ## Downloads
 Note: This mod is based on the dev build, so you run it the same way as you would the developmental version of the base game.
@@ -25,9 +27,10 @@ Be sure to download the 64-bit version of the IDE or the game won't start.
 https://thonny.org/
 https://www.jetbrains.com/pycharm/
 
-All you need to do is have your IDE downloaded and make sure all .py files of the game are opened through it. Afterward, you should be able to start the game.
+All you need to do is have your IDE downloaded and make sure all .py files of the game are opened through it. Also, make sure the requirements are installed for your IDE. Afterward, you should be able to run the game.
+Guide for installing requirements for Thonny: https://docs.google.com/document/d/1kZB_dGg5gRUFbGIpZ_NjRtwngy0f0KcrrvQM_cI1B-M/edit?usp=drivesdk
 
-## Running from source (pure Python)
+## Running from pure Python
 ### Requirements
 - python >= 3.8
 - pygame >= 2.2.1
