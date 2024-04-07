@@ -138,13 +138,13 @@ class Pelt():
     mid_white = ['TUXEDO', 'FANCY', 'UNDERS',
                  'FADESPOTS', 'BEARD', 'DAPPLEPAW', 'TOPCOVER']
     high_white = ['ANY', 'ANYTWO', 'BROKEN', 'FRECKLES', 'RINGTAIL', 'HALFFACE', 'PANTSTWO',
-                  'PRINCE',
+                  'PRINCE', 'REVERSEPANTS',
                   'GLASS', 'MASKMANTLE', 'MAO', 'OWL']
     mostly_white = ['VAN', 'ONEEAR', 'LIGHTSONG', 'TAIL', 'MOORISH',
                     'CHESTSPECK', 'BLACKSTAR', 'HEARTTWO',
                     'TAILTWO']
     point_markings = ['COLOURPOINT', 'RAGDOLL', 'SEPIAPOINT', 'MINKPOINT', 'SEALPOINT']
-    vit = ['VITILIGO']
+    vit = ['VITILIGO', 'PHANTOM']
     white_sprites = [
         little_white, mid_white, high_white, mostly_white, point_markings, vit, 'FULLWHITE']
 
