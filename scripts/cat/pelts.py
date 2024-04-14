@@ -137,7 +137,8 @@ class Pelt():
                     'EXTRA', 'REVERSEEYE', 'BACKSPOT',
                     'EYEBAGS']
     mid_white = ['TUXEDO', 'FANCY', 'UNDERS',
-                 'FADESPOTS', 'BEARD', 'DAPPLEPAW', 'TOPCOVER', 'MISS']
+                 'FADESPOTS', 'BEARD', 'DAPPLEPAW', 'TOPCOVER', 'MISS',
+                 'FADEBELLY']
     high_white = ['ANY', 'ANYTWO', 'BROKEN', 'FRECKLES', 'RINGTAIL', 'HALFFACE', 'PANTSTWO',
                   'PRINCE', 'REVERSEPANTS',
                   'GLASS', 'MASKMANTLE', 'MAO', 'OWL']
