@@ -52,7 +52,7 @@ class Pelt():
     #                'BRIE', 'BELOVED', 'BODY', 'SHILOH', 'FRECKLED', 'HEARTBEAT']
     tortiepatterns = ['ONE', 'TWO', 'DELILAH', 'MINIMALONE', 'MINIMALTHREE', 'HALF',
                     'SWOOP', 'ORIOLE', 'CHIMERA', 'BLANKET',
-                    'PAIGE', 'ROSETAIL', 'SMUDGED', 'MASK', 'CHEST', 'ARMTAIL',
+                    'PAIGE', 'ROSETAIL', 'SMUDGED', 'STREAK', 'MASK', 'CHEST', 'ARMTAIL',
                     'HEARTBEAT'
                     ]
     tortiebases = ['single', 'tabby', 'bengal', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
