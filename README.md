@@ -14,34 +14,41 @@ Fan-edit creator: SableSteel, and many others
 
 Mod Creator: Anju (anjujsc)
 
-Mod Sprite Helpers: Dino (banana_dino_69), Tiny (tinywinny), Izzy (izzyphobic), Acorn (a.corn)
+Mod Sprite Helpers: Dino (banana_dino_69), Tiny (tinywinny), Izzy (izzyphobic), Acorn (a.corn), Ster (shiningstar1122), Ghost (ghost_xvii)
 
 Mod Visual Sprite Guide by Ster (shiningstar1122): https://docs.google.com/spreadsheets/d/1JFkx-ieWI9-uv7dHVNno87oTYWT7Nh-ZH1dBr-BUOFs/edit#gid=1629238848
 
 ## Downloads
-Note: This mod is based on the dev build, so you run it the same way as you would the developmental version of the base game.
+Download the latest release on the [Releases] (https://github.com/anjubatus/clangen/releases) page.
 
-Download the zip from the green button at the top of the page called "Code".
-Then run the game from either pure Python or a python IDE like Thonny or PyCharm - an IDE is recommended if you are unfamiliar with the command line/terminal.
-Be sure to download the 64-bit version of the IDE or the game won't start.
-https://thonny.org/
-https://www.jetbrains.com/pycharm/
+## Running from source code
+ClanGen uses poetry to manage virtual environments. Therefore it is required to install the dependencies and run the game from source without manual tweaking.
 
-All you need to do is have your IDE downloaded and make sure all .py files of the game are opened through it. Also, make sure the requirements are installed for your IDE. Afterward, you should be able to run the game.
-Guide for installing requirements for Thonny: https://docs.google.com/document/d/1kZB_dGg5gRUFbGIpZ_NjRtwngy0f0KcrrvQM_cI1B-M/edit?usp=drivesdk
+### Installing poetry
+Follow the instructions for installing poetry from the official website: https://python-poetry.org/docs/#installing-with-the-official-installer
 
-## Running from pure Python
-### Requirements
-- python >= 3.8
-- pygame >= 2.2.1
-- pygame_gui >= 0.6.9
-- and more, please install dependencies!
+#### Linux, macOS, Windows (WSL)
+Open a terminal and paste this:
+```
+curl -sSL https://install.python-poetry.org | python3 -
+```
 
-### Setting up
-Run `pip install -r requirements.txt` to install dependencies. 
+#### Windows (Powershell)
+Open a PowerShell window (Windows key and then enter `PowerShell`) and paste this:
+```
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+```
+or in case you installed Python from the Windows Store:
+```
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
+```
 
-### Running game
-Run `python3 main.py`. If python3 does not exist try running `python main.py` instead.
+### Running the game via the helper scripts
+#### Linux, macOS
+Double click the `run.sh` script or open it in the terminal via `./run.sh` with the current working directory set to the game's root directory
+
+#### Windows
+Double click the `run.bat` script
 
 ### Bug Reporting
 You may contact Anju on discord either on the Mod's discord server or through Anju's DMs. Username "anjujsc".
